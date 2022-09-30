@@ -64,7 +64,7 @@ class Sqwordle:
                 display = []
                 for index, letter in enumerate(word):
                     if letter == self._game_word[index]:
-                        display.extend([Back.GREEN, letter.upper(), Style.RESET_ALL, ' '])
+                        display.extend([Back.BLUE, letter.upper(), Style.RESET_ALL, ' '])
                     elif letter in self._game_word and letter != self._game_word[index]:
                         display.extend([Back.YELLOW, letter.upper(), Style.RESET_ALL, ' '])
                     else:
