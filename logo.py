@@ -33,6 +33,3 @@ logo = '''
                 7____,,..--'      /          |
                                   `---.__,--.'
 '''
-
-# make you own ASCII word art here!
-# https://patorjk.com/software/taag/#p=display&f=Big&t=Wordle

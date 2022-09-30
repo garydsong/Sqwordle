@@ -31,7 +31,7 @@ class Sqwordle:
     def guess(self):
         bad_guess = True
         while bad_guess:
-            user_guess = input(f"Guess a {self._letters} letter word: ").lower()
+            user_guess = input(f"Guess a {self._letters} letter pokemon: ").lower()
             if len(user_guess) != self._letters:
                 print(f"Words must be {self._letters} letters.")
                 continue
@@ -47,7 +47,7 @@ class Sqwordle:
 
     def play_game(self):
         print(self._logo)
-        print('Welcome to Wordle!')
+        print('Welcome to Sqwordle!')
         while self._tries < 7:
             self.guess()
             self.update_display()
