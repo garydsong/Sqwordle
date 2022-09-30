@@ -6,3 +6,4 @@ Sqwordle is a WSL/Terminal based word guessing game based on Wordle. You get 7 g
 
 
 ### Game
+![ss2](Screenshot_54.png)
